@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 module project</title>
+    <style>
+
+* {
+  box-sizing: border-box;
+  margin: 5;
+  padding: 5;
+}
+
+body {
+  font-family: 'Museo Sans', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #a3dfeb;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #9ebcd6;
+}
+
+header {
+  background-color: #44c39f;
+  padding: 20px;
+  text-align: center;
+  color: #d54747;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  width: calc(33.33% - 40px);
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #666;
+}
+
+button {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #23527c;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  section {
+    width: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Our mission</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>CONGREVE STREET</h1>
+            <p>Birmingham Museums.</p>
+        </section>
+        <section>
+            <h2>EUROPEANA</h2>
+            <figure>
+                <img src="a-woman-slicing-bread.jpg" alt="A Woman Slicing Bread">
+                <figcaption>DATE: 1800. INSTITUTION: RIJKSMUSEUM. PROVIDER: RIJKSMUSEUM. PROVIDING COUNTRY: NETHERLANDS. PUBLIC DOMAIN. PHOTO BY EUROPEANA.</figcaption>
+            </figure>
+            <button>GET STARTED</button>
+        </section>
+        <section>
+            <h2>Portrait</h2>
+            <figure>
+                <img src="portrait-of-maritge-claesdr-vooght.jpg" alt="PORTRAIT OF MARITGE CLAESDR VOOGHT">
+                <figcaption>DATE: 1639. INSTITUTION: RIJKSMUSEUM. PROVIDER: RIJKSMUSEUM. PROVIDING COUNTRY: NETHERLANDS. PUBLIC DOMAIN</figcaption>
+            </figure>
+            <button>GET STARTED</button>
+            <button>GET STARTED</button>
+        </section>
+        <section>
+            <h2>EUROPEANA</h2>
+            <figure>
+                <img src="vintage-painting.jpg" alt="Vintage Painting">
+                <figcaption>CONTACT NOW</figcaption>
+            </figure>
+            <figure>
+                <img src="portrait-of-a-man.jpg" alt="PORTRAIT OF A MAN">
+                <figcaption>DATE: 1648. INSTITUTION: RIJKSMUSEUM. PROVIDER: RIJKSMUSEUM. PROVIDING COUNTRY: NETHERLANDS. PUBLIC DOMAIN</figcaption>
+            </figure>
+            <p>PUBLIC DOMAIN NETHERLANDS</p>
+            <button>GET STARTED</button>
+        </section>
+    </main>
+</body>
+</html>
